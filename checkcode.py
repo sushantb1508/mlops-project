@@ -3,8 +3,8 @@ code = programfile.read()				#reading the code file
 
 if 'keras' or 'tensorflow' in code:						#because keras or tensorflow keyword is a cmust have for a dl program
 	if 'Conv2D' in code:				#beacuse if a code is of CNN conv2D layer is a must have
-		print('kerasCNN')
+		print('CNN')
 	else:
-		print('not kerasCNN')
+		print('not CNN')
 else:
 	print('not deep learning')
