@@ -109,7 +109,7 @@ data_file.close()
 input_file.close()
 
 #opening both the files in write mode
-data_file = open('/home/jyotirmaya/ws/mlops1/data.txt','w')
+data_file = open('/root/mlops/data.txt','w')
 input_file = open('/root/mlops/input.txt','w')
 
 data_file_data = str(old_accuracy) + '\n' + str(layer) + '\n' + str(line) + '\n' + str(entered_data) + '\n' + str(old_data) + '\n' + str(index_fc)
